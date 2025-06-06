@@ -26,7 +26,7 @@
     }
 
     .container {
-      max-width: 600px;
+      max-width: 650px;
       width: 100%;
       margin: auto;
     }
@@ -76,8 +76,22 @@
       margin-top: 0;
     }
 
-    p, ul {
-      line-height: 1.6;
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      margin-top: 10px;
+    }
+
+    td, th {
+      padding: 8px 10px;
+      vertical-align: top;
+      line-height: 1.4;
+    }
+
+    th.time {
+      white-space: nowrap;
+      color: var(--accent);
+      width: 80px;
     }
 
     a {
@@ -116,82 +130,99 @@
     <div class="tab">14 июня</div>
   </div>
 
+  <!-- День 8 -->
   <div class="content active">
     <h3>8 июня – Центральный день</h3>
-    <ul>
-      <li>Завтрак дома</li>
-      <li>Выход из дома → м. Фрунзенская (~7 мин)</li>
-      <li>Невский проспект: Гостиный двор → Казанский собор</li>
-      <li>Исаакиевский собор</li>
-      <li>Дворцовая площадь и набережная Невы</li>
-    </ul>
-    <p><strong>Обед:</strong> <a href="https://2gis.ru/spb/firm/70030067892298849"  target="_blank">Кафе "Люли"</a> или <a href="https://2gis.ru/spb/firm/70030067892298849"  target="_blank">Burger & Waffle</a></p>
-    <p><strong>Ужин:</strong> Дома или <a href="https://2gis.ru/spb/firm/70030067892298849"  target="_blank">Café de Paris</a></p>
+    <table>
+      <tr><th class="time">09:00</th><td>Завтрак дома</td></tr>
+      <tr><th class="time">10:00</th><td>Выходим из дома → м. Фрунзенская (~7 мин)</td></tr>
+      <tr><th class="time">10:10</th><td>Метро до м. Пушкинская (~10 мин)</td></tr>
+      <tr><th class="time">10:30</th><td>Прогулка по Невскому проспекту от Гостиного двора до Казанского собора</td></tr>
+      <tr><th class="time">12:00</th><td>Посещение Исаакиевского собора</td></tr>
+      <tr><th class="time">13:00</th><td>Обед: <a href="https://2gis.ru/spb/firm/70030067892298849"  target="_blank">Кафе "Люли"</a> или <a href="https://2gis.ru/spb/firm/70030067892298849"  target="_blank">Burger & Waffle</a></td></tr>
+      <tr><th class="time">14:30</th><td>Прогулка по Дворцовой набережной, вид на Зимний дворец</td></tr>
+      <tr><th class="time">16:00</th><td>Возвращение домой через м. Площадь Восстания</td></tr>
+    </table>
     <iframe class="map" src="https://widgets.2gis.com/widget-source.html?component=map&center=30.3351%2C59.9346&zoom=14&size=small&guid=spb"></iframe>
   </div>
 
+  <!-- День 9 -->
   <div class="content">
     <h3>9 июня – Петергоф</h3>
-    <ul>
-      <li>Завтрак дома</li>
-      <li>Фрунзенская → Балтийская → Ласточка до Петергофа</li>
-      <li>Нижний парк, фонтаны, Большой дворец</li>
-      <li>Возвращение вечером</li>
-    </ul>
-    <p><strong>Обед:</strong> <a href="https://2gis.ru/spb/firm/70030067892298849" target="_blank">Румба</a> или <a href="https://2gis.ru/spb/firm/70030067892298849" target="_blank">Kultura Food Market</a></p>
-    <p><strong>Ужин:</strong> Дома или <a href="https://2gis.ru/spb/firm/70030067892298849" target="_blank">Стейкхаус Пётр</a></p>
+    <table>
+      <tr><th class="time">09:00</th><td>Завтрак дома</td></tr>
+      <tr><th class="time">10:00</th><td>Выходим → м. Фрунзенская (~7 мин)</td></tr>
+      <tr><th class="time">10:10</th><td>Метро до м. Балтийская (~15 мин)</td></tr>
+      <tr><th class="time">10:30</th><td>«Ласточка» до станции «Петергоф» (~40 мин)</td></tr>
+      <tr><th class="time">11:20</th><td>Прогулка по Нижнему парку Петергофа</td></tr>
+      <tr><th class="time">13:00</th><td>Обед: <a href="https://2gis.ru/spb/firm/70030067892298849" target="_blank">Румба</a> или <a href="https://2gis.ru/spb/firm/70030067892298849" target="_blank">Kultura Food Market</a></td></tr>
+      <tr><th class="time">14:30</th><td>Посещение Большого дворца (по желанию)</td></tr>
+      <tr><th class="time">16:00</th><td>Обратно электричкой (~40 мин)</td></tr>
+      <tr><th class="time">17:00</th><td>Возвращение в Питер</td></tr>
+    </table>
     <iframe class="map" src="https://widgets.2gis.com/widget-source.html?component=map&center=29.7995%2C59.8595&zoom=13&size=small&guid=spb"></iframe>
   </div>
 
+  <!-- День 10 -->
   <div class="content">
     <h3>10 июня – Эрмитаж + водная прогулка</h3>
-    <ul>
-      <li>Завтрак дома</li>
-      <li>Фрунзенская → Невский проспект → Эрмитаж</li>
-      <li>Летний сад</li>
-      <li>Водная прогулка по каналам</li>
-    </ul>
-    <p><strong>Обед:</strong> <a href="https://2gis.ru/spb/firm/70030067892298849" target="_blank">Столовая №1</a> или <a href="https://2gis.ru/spb/firm/70030067892298849" target="_blank">Сушкофейка</a></p>
-    <p><strong>Ужин:</strong> <a href="https://2gis.ru/spb/firm/70030067892298849" target="_blank">Pizza Like</a> или <a href="https://2gis.ru/spb/firm/70030067892298849" target="_blank">Coffee Lab</a></p>
+    <table>
+      <tr><th class="time">09:00</th><td>Завтрак дома</td></tr>
+      <tr><th class="time">10:00</th><td>Выходим → м. Фрунзенская (~7 мин)</td></tr>
+      <tr><th class="time">10:10</th><td>Метро до м. Невский проспект (~10 мин)</td></tr>
+      <tr><th class="time">10:30</th><td>Посещение Эрмитажа</td></tr>
+      <tr><th class="time">12:30</th><td>Обед: <a href="https://2gis.ru/spb/firm/70030067892298849" target="_blank">Столовая №1</a> или <a href="https://2gis.ru/spb/firm/70030067892298849" target="_blank">Сушкофейка</a></td></tr>
+      <tr><th class="time">14:00</th><td>Прогулка по Летнему саду</td></tr>
+      <tr><th class="time">15:00</th><td>Водная прогулка по каналам (причал у Казанского собора)</td></tr>
+      <tr><th class="time">17:00</th><td>Ужин: <a href="https://2gis.ru/spb/firm/70030067892298849" target="_blank">Pizza Like</a> или <a href="https://2gis.ru/spb/firm/70030067892298849" target="_blank">Coffee Lab</a></td></tr>
+    </table>
     <iframe class="map" src="https://widgets.2gis.com/widget-source.html?component=map&center=30.3351%2C59.9346&zoom=14&size=small&guid=spb"></iframe>
   </div>
 
+  <!-- День 12 -->
   <div class="content">
     <h3>12 июня – Петропавловская крепость + каналы</h3>
-    <ul>
-      <li>Завтрак дома</li>
-      <li>Фрунзенская → Горьковская → пристань катера</li>
-      <li>Петропавловская крепость</li>
-      <li>Прогулка по каналам</li>
-    </ul>
-    <p><strong>Обед:</strong> <a href="https://2gis.ru/spb/firm/70030067892298849" target="_blank">Фрегат</a> или <a href="https://2gis.ru/spb/firm/70030067892298849" target="_blank">Palkin Bistro</a></p>
-    <p><strong>Ужин:</strong> Дома или <a href="https://2gis.ru/spb/firm/70030067892298849" target="_blank">Tea Garden</a></p>
+    <table>
+      <tr><th class="time">09:00</th><td>Завтрак дома</td></tr>
+      <tr><th class="time">10:00</th><td>Выходим → м. Фрунзенская (~7 мин)</td></tr>
+      <tr><th class="time">10:10</th><td>Метро до м. Горьковская (~15 мин)</td></tr>
+      <tr><th class="time">10:30</th><td>На катере до Петропавловской крепости (~10 мин)</td></tr>
+      <tr><th class="time">11:00</th><td>Осмотр крепости, могилы Романовых</td></tr>
+      <tr><th class="time">13:00</th><td>Обед: <a href="https://2gis.ru/spb/firm/70030067892298849" target="_blank">Фрегат</a> или <a href="https://2gis.ru/spb/firm/70030067892298849" target="_blank">Palkin Bistro</a></td></tr>
+      <tr><th class="time">14:30</th><td>Прогулка по каналам Грибоедова</td></tr>
+      <tr><th class="time">15:30</th><td>Освобождение</td></tr>
+    </table>
     <iframe class="map" src="https://widgets.2gis.com/widget-source.html?component=map&center=30.3053%2C59.9533&zoom=14&size=small&guid=spb"></iframe>
   </div>
 
+  <!-- День 13 -->
   <div class="content">
     <h3>13 июня – совместное время + расслабление для девушки</h3>
-    <ul>
-      <li>Завтрак дома</li>
-      <li>Фрунзенская → Сенная площадь</li>
-      <li>Каналы, Русский музей / Михайловский замок</li>
-      <li>Обед и свобода</li>
-    </ul>
-    <p><strong>Обед:</strong> <a href="https://2gis.ru/spb/firm/70030067892298849" target="_blank">Гранатовый браслет</a> или <a href="https://2gis.ru/spb/firm/70030067892298849" target="_blank">La Marée</a></p>
-    <p><strong>Ужин:</strong> <a href="https://2gis.ru/spb/firm/70030067892298849" target="_blank">Yota Space</a> или <a href="https://2gis.ru/spb/firm/70030067892298849" target="_blank">Paparazzi</a></p>
+    <table>
+      <tr><th class="time">09:00</th><td>Завтрак дома</td></tr>
+      <tr><th class="time">10:00</th><td>Выходим → м. Фрунзенская (~7 мин)</td></tr>
+      <tr><th class="time">10:10</th><td>Метро до м. Сенная площадь (~15 мин)</td></tr>
+      <tr><th class="time">10:30</th><td>Прогулка по каналу Грибоедова</td></tr>
+      <tr><th class="time">12:00</th><td>Обед: <a href="https://2gis.ru/spb/firm/70030067892298849" target="_blank">Гранатовый браслет</a> или <a href="https://2gis.ru/spb/firm/70030067892298849" target="_blank">La Marée</a></td></tr>
+      <tr><th class="time">13:30</th><td>Посещение Русского музея или Михайловского замка</td></tr>
+      <tr><th class="time">15:30</th><td>Ты свободен</td></tr>
+      <tr><th class="time">15:30+</th><td>Для девушки: спа, чайная церемония или флористика</td></tr>
+    </table>
     <iframe class="map" src="https://widgets.2gis.com/widget-source.html?component=map&center=30.2578%2C59.9156&zoom=14&size=small&guid=spb"></iframe>
   </div>
 
+  <!-- День 14 -->
   <div class="content">
     <h3>14 июня – прощальный день</h3>
-    <ul>
-      <li>Завтрак дома</li>
-      <li>Фрунзенская → Чкаловская → Смольный собор</li>
-      <li>Петроградская сторона → Газпром Арена / парк Лахта</li>
-      <li>Прощальная прогулка</li>
-    </ul>
-    <p><strong>Обед:</strong> <a href="https://2gis.ru/spb/firm/70030067892298849" target="_blank">Уральские пельмени</a> или <a href="https://2gis.ru/spb/firm/70030067892298849" target="_blank">Шашлычная №1</a></p>
-    <p><strong>Ужин:</strong> <a href="https://2gis.ru/spb/firm/70030067892298849" target="_blank">Yota Space</a> или <a href="https://2gis.ru/spb/firm/70030067892298849" target="_blank">Paparazzi</a></p>
+    <table>
+      <tr><th class="time">09:00</th><td>Завтрак дома</td></tr>
+      <tr><th class="time">10:00</th><td>Выходим → м. Фрунзенская (~7 мин)</td></tr>
+      <tr><th class="time">10:10</th><td>Метро до м. Чкаловская (~15 мин)</td></tr>
+      <tr><th class="time">10:30</th><td>Прогулка по набережной Макарова, Смольный собор</td></tr>
+      <tr><th class="time">12:00</th><td>Обед: <a href="https://2gis.ru/spb/firm/70030067892298849" target="_blank">Уральские пельмени</a> или <a href="https://2gis.ru/spb/firm/70030067892298849" target="_blank">Шашлычная №1</a></td></tr>
+      <tr><th class="time">13:30</th><td>Прогулка в районе Газпром Арены / парк Лахта</td></tr>
+      <tr><th class="time">15:30</th><td>Ужин: <a href="https://2gis.ru/spb/firm/70030067892298849" target="_blank">Yota Space</a> или <a href="https://2gis.ru/spb/firm/70030067892298849" target="_blank">Paparazzi</a></td></tr>
+    </table>
     <iframe class="map" src="https://widgets.2gis.com/widget-source.html?component=map&center=30.3053%2C59.9533&zoom=14&size=small&guid=spb"></iframe>
   </div>
 
